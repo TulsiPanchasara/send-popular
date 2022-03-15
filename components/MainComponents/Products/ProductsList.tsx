@@ -5,30 +5,30 @@ const allProducts = [
         title: 'REDESTAL VITROSA SERIES',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -36,30 +36,30 @@ const allProducts = [
         title: 'PEDESTAL WASH BASIN',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -67,30 +67,30 @@ const allProducts = [
         title: 'WATER CLOSET',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -98,30 +98,30 @@ const allProducts = [
         title: 'ONE PIECE',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -129,30 +129,30 @@ const allProducts = [
         title: 'URINAL',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -160,30 +160,30 @@ const allProducts = [
         title: 'WASH BASIN',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -191,30 +191,30 @@ const allProducts = [
         title: 'ONE PIECE WASH BASIN',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -222,30 +222,30 @@ const allProducts = [
         title: 'VITROSA BASSIN',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -253,30 +253,30 @@ const allProducts = [
         title: 'ORRISA PAN',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -284,30 +284,30 @@ const allProducts = [
         title: 'COLOUR RANGE    ',
         products: [
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
             },
             {
-            primaryImage: "/images/TestImage.png"
-            },{
-            primaryImage: "/images/TestImage.png"
+                primaryImage: "/images/TestImage.png"
+            }, {
+                primaryImage: "/images/TestImage.png"
             }
         ]
     },
@@ -315,33 +315,46 @@ const allProducts = [
 
 
 const ProductsList = () => {
-  const [selected, setSelected] = useState(allProducts[0])
+    const [selected, setSelected] = useState(allProducts[0])
     return (
-        <div className='container mx-auto grid grid-cols-3 gap-6 mb-96 ' >
-            <div className='border border-customGray-1 opacity-100' >
+        <div className='container mx-auto grid lg:grid-cols-3 grid-cols-1 gap-6 mb-96 px-10' >
+            <div className='border h-fit border-customGray-1 opacity-100' >
                 <div className='mt-5 mb-7 text-customGray-3 text-center' >CATEGORY</div>
-                {allProducts.map((products, index) => {
-                    if ((index + 1) === allProducts.length) {
+                <div className='lg:block hidden' >
+                    {allProducts.map((products, index) => {
+                        if ((index + 1) === allProducts.length) {
+                            return (
+                                <div onClick={() => setSelected(products)} className='flex items-center cursor-pointer pl-8' >
+                                    <img src="/images/square-icon.png" className='w-5 h-5' />
+                                    <div className={`m-3  hover:text-customGray-2 opacity-100 ${selected.title === products.title ? 'text-customRed-1' : 'text-customGray-3'} `} >{products.title}</div>
+                                </div>
+                            )
+                        }
                         return (
-                            <div onClick={() => setSelected(products) } className='flex items-center cursor-pointer pl-8' >
+                            <div key={index} onClick={() => setSelected(products)} className='flex items-center cursor-pointer pl-8 border-b border-customGray-1 ' >
                                 <img src="/images/square-icon.png" className='w-5 h-5' />
-                                <div className='m-3 text-customGray-3 hover:text-customGray-2 opacity-100' >{products.title}</div>
+                                <div className={`m-3  hover:text-customGray-2 opacity-100 ${selected.title === products.title ? 'text-customRed-1' : 'text-customGray-3'} `} >{products.title}</div>
                             </div>
                         )
-                    }
-                    return (
-                        <div key={index} onClick={() => setSelected(products) } className='flex items-center cursor-pointer pl-8 border-b border-customGray-1 ' >
-                            <img src="/images/square-icon.png" className='w-5 h-5' />
-                            <div className='m-3 text-customGray-3 hover:text-customGray-2 opacity-100' >{products.title}</div>
-                        </div>        
-                    )
-                })}
-                
+                    })}
+                </div>
+
+                <select onChange={e => {
+                    let mainValue = allProducts.find((p) => p.title === e.target.value)
+                    mainValue && setSelected(mainValue)
+                } } className='lg:hidden w-full px-2' >
+                    {allProducts.map((products, index) => (
+                            <option value={products.title} key={index}  className='font-josefin' >
+                                {products.title}
+                            </option>
+                        ))}
+
+                </select>
             </div>
             <div className='col-span-2 ml-5' >
-                { selected &&  <div className='text-customLightBlue-1' >{selected.title}</div>}
+                {selected && <div className='text-customRed-1' >{selected.title}</div>}
                 {selected && (
-                    <div className='grid grid-cols-3 gap-3' >
+                    <div className='grid lg:grid-cols-3 grid-cols-1 gap-3 mt-10' >
                         {selected.products.map((product, index) => {
                             return (
                                 <div key={index} >

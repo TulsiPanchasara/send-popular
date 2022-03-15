@@ -41,26 +41,39 @@ const ProductionList = () => {
         <div className='container mx-auto grid lg:grid-cols-3 grid-cols-1 gap-6 mb-96 px-10' >
             <div className='border border-customGray-1 opacity-100' >
                 <div className='mt-5 mb-7 text-customGray-3 text-center' >CATEGORY</div>
-                {allProductions.map((productions, index) => {
+                <div className='lg:block hidden'>
+                     {allProductions.map((productions, index) => {
                     if ((index + 1) === allProductions.length) {
                         return (
                             <div onClick={() => setSelected(productions) } className='flex items-center cursor-pointer pl-8' >
                                 <img src="/images/square-icon.png" className='w-5 h-5' />
-                                <div className='m-3 text-customGray-3 hover:text-customGray-2 opacity-100' >{productions.title}</div>
+                                <div className={`m-3  hover:text-customGray-2 opacity-100 ${selected.title === productions.title ? 'text-customRed-1': 'text-customGray-3'} `  } >{productions.title}</div>
                             </div>
                         )
                     }
                     return (
                         <div key={index} onClick={() => setSelected(productions) } className='flex items-center cursor-pointer pl-8 border-b border-customGray-1 ' >
                             <img src="/images/square-icon.png" className='w-5 h-5' />
-                            <div className='m-3 text-customGray-3 hover:text-customGray-2 opacity-100' >{productions.title}</div>
+                            <div className={`m-3  hover:text-customGray-2 opacity-100 ${selected.title === productions.title ? 'text-customRed-1': 'text-customGray-3'} `  } >{productions.title}</div>
                         </div>        
                     )
                 })}
+                </div>
+                    <select onChange={e => {
+                    let mainValue = allProductions.find((p) => p.title === e.target.value)
+                    mainValue && setSelected(mainValue)
+                } } className='lg:hidden w-full px-2' >
+                    {allProductions.map((producttion, index) => (
+                            <option value={producttion.title} key={index}  className='font-josefin' >
+                                {producttion.title}
+                            </option>
+                        ))}
+
+                </select>
                 
             </div>
             <div className='col-span-2 ml-5' >
-                { selected &&  <div className='text-customLightBlue-1' >{selected.title}</div>}
+                { selected &&  <div className='text-customRed-1' >{selected.title}</div>}
                 { selected &&  <p className='mt-10 text-customGray-5' >{selected.desc}</p>}
             </div>
         </div>

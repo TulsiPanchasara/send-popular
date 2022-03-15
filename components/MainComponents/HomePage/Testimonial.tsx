@@ -31,12 +31,12 @@ const Testimonial = () => {
             <div className='text-customRed-1 text-center' >TESTIMONIALS</div>
             <h1 className='text-center my-2 text-3xl text-customGray-3' >What People Says</h1>
             <div className='mx-auto text-center' >
-                <p className='text-customGray-3 max-w-xl mx-auto text-center text-sm my-6' >
+                <p className='text-customGray-3 max-w-xl mx-auto text-center  text-sm my-6' >
                 Lorem ipsum dolor sit amet,Stet clita kasd gubergren, no sea takimata sanctus est is the
                 lorem ipsum dolor sit amet. sed diam nonumy eirmod tempor invidunt ut labore et dolore
                 is the magna aliquyam.
             </p>
-                <div className='text-customGray-3 text-xl my-3' >John Doe</div>
+                <div className='text-customGray-3 text-xl mb-3 mt-7 ' >John Doe</div>
                 <div className='text-customGray-3 text-sm' >CEO, ABC Company</div>
                 <Slider {...settings} className='main-slider w-full lg:w-48 mx-auto mt-10' >
                     <img src="/images/1.png" className='w-2 slides'/>

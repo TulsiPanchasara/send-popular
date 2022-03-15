@@ -2,10 +2,10 @@ import React from 'react';
 import { SendArrow } from '../../../assets/svgs/sendArrow';
 
 const MyServices = () => {
-    return <div className='my-12 w-full' >
+    return <div className='my-12 w-full px-9' >
         <div className='text-customRed-1 text-center' >MY SERVICES</div>
         <h1 className='text-center my-2 font-semibold text-4xl' >Our Provided Features &amp; Expertise</h1>
-        <div className='grid lg:grid-cols-3 grid-cols-1 gap-9 container mx-auto mt-14 px-10' >
+        <div className='grid lg:grid-cols-3 grid-cols-1 gap-9 container mx-auto mt-14 ' >
             <div className='shadow-xl p-5' >
                 <img src="/images/Service.png" />
                 <div className='text-customGray-3 mt-8 mb-3 '>ABOUT US</div>

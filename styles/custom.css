@@ -3,9 +3,15 @@ body {
   cursor: default;
   overflow-x: hidden;
 }
-
+html,body{
+    overflow-x: hidden;
+}
 .customToaster {
   z-index: 99999999999;
+}
+
+.logo_wrapper img {
+  height: 60px;
 }
 
 .Toastify__toast-container {
@@ -513,7 +519,7 @@ select.PhoneInputCountrySelect:focus {
 
 .main-slider .slick-dots li.slick-active button:before {
   opacity: 1;
-  background: #27DEBF;
+  background: #DB211D;
 }
 
 .main-slider .slick-slide .slick-active .slick-center .slick-current{

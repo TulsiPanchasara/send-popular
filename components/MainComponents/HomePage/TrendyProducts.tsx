@@ -10,34 +10,34 @@ const TrendyProducts = () => {
             <div className='shadow-xl' >
                 <img src="/images/fish-1.png"  className='w-full' />
                 <div className='p-5' >
-                    <div className='text-customLightBlue-1' >26th</div>
+                    <div className='text-customRed-1' >26th</div>
                     <div className='text-customGray-3 mb-3'>Lorem ipsum dolor sit amet, consetetur </div>
                     <img src="/images/Line 20.png" />
                     <p className='mt-8 mb-10' >Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam  eirmod tempor dolore.</p>
                     
-                    <a href="/about-us" className='flex text-customLightBlue-1 items-center text-sm ' >Know <SendArrow className='w-4 h-4 ml-2' /></a> 
+                    <a href="/about-us" className='flex text-customRed-1 items-center text-sm ' >Know <SendArrow className='w-4 h-4 ml-2' /></a> 
                 </div>
             </div>
             <div className='shadow-xl' >
                 <img src="/images/fish-1.png"  className='w-full' />
                 <div className='p-5' >
-                    <div className='text-customLightBlue-1' >26th</div>
+                    <div className='text-customRed-1' >26th</div>
                     <div className='text-customGray-3 mb-3'>Lorem ipsum dolor sit amet, consetetur </div>
                     <img src="/images/Line 20.png" />
                     <p className='mt-8 mb-10' >Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam  eirmod tempor dolore.</p>
                     
-                    <a href="/about-us" className='flex text-customLightBlue-1 items-center text-sm ' >Know <SendArrow className='w-4 h-4 ml-2' /></a> 
+                    <a href="/about-us" className='flex text-customRed-1 items-center text-sm ' >Know <SendArrow className='w-4 h-4 ml-2' /></a> 
                 </div>
             </div>
             <div className='shadow-xl' >
                 <img src="/images/fish-1.png"  className='w-full' />
                 <div className='p-5' >
-                    <div className='text-customLightBlue-1' >26th</div>
+                    <div className='text-customRed-1' >26th</div>
                     <div className='text-customGray-3 mb-3'>Lorem ipsum dolor sit amet, consetetur </div>
                     <img src="/images/Line 20.png" />
                     <p className='mt-8 mb-10' >Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam  eirmod tempor dolore.</p>
                     
-                    <a href="/about-us" className='flex text-customLightBlue-1 items-center text-sm ' >Know <SendArrow className='w-4 h-4 ml-2' /></a> 
+                    <a href="/about-us" className='flex text-customRed-1 items-center text-sm ' >Know <SendArrow className='w-4 h-4 ml-2' /></a> 
                 </div>
             </div>
             </div>
