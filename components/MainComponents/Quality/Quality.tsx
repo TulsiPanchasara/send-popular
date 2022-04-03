@@ -13,17 +13,6 @@ const Quality = () => {
                     </div>
                 </div>
             </div>
-            <div className='lg:flex justify-center mt-32' >
-                <div className='lg:hidden block' >   <ImageContainer /></div>
-                <div className='lg:mr-20 lg:pt-0 pt-10' >
-                    <div className='uppercase text-customRed-1 text-sm ' >About Us</div>
-                    <div className='max-w-lg text-customGray-3 mt-10 text-justify' >
-                        <p>Send & Popular is a global web site of Indian Sales, Thangadh. We are suppliers of high quality sanitary ware from India. Located at Thangadh, Gujarat, we are placed at the most important place for affordable sanitary ware. We have been inthis sector since past 25 years and have established ourselves as dependable supplier of sanitary ware.</p>
-                        <p>As traders of sanitary ware we pride ourselves to be one of the leading buyer as well as seller of Ceramic goods in the region.</p>
-                    </div>
-                </div>
-                <div className='lg:block hidden' >   <ImageContainer /></div>
-            </div>
         </div>);
 };
 

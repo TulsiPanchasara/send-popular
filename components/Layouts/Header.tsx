@@ -30,7 +30,7 @@ const Header = () => {
     },
     {
       text: 'Contacts',
-      link: '/'
+      link: '/#contact-us'
     }
   ]
 

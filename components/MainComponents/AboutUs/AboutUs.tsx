@@ -9,7 +9,7 @@ interface IAboutUsProps{
 const AboutUs = ({ showMoreButton }: IAboutUsProps) => {
     const router = useRouter()
     return <div className='lg:flex lg:justify-center mb-20' >
-        <ImageContainer />
+        <ImageContainer image='/images/AboutUsImage.jpeg'/>
         <div className='lg:ml-20 px-10 lg:pt-0 pt-10' >
             <div className='uppercase text-customRed-1 text-sm ' >About Us</div>
             <div className='font-semibold my-5 text-customGray-3' >SEND &amp; POPULAR</div>

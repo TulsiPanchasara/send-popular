@@ -23,9 +23,9 @@ const Homepage = () => {
         <div className='mb-20' >
             <div className="mb-32 relative flex flex-col w-full">
                 <Slider {...settings} className="main-slider-d w-full">
-                        <img src="/images/123.png" />
-                        <img src="/images/123.png" />
-                        <img src="/images/123.png" />
+                        <img src="/images/Homepage-1.jpg" />
+                        {/* <img src="/images/Homepage-2.jpg" />
+                        <img src="/images/Homepage-3.jpg" /> */}
                 </Slider>
             </div>
             <AboutUs showMoreButton />

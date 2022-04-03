@@ -75,7 +75,7 @@ const Footer = () => {
                 <li className="text-sm">
                   <a
                     className="hover:text-customGray-1 text-sm"
-                    href={`${WEBSITE_URL}`}
+                    href={`${WEBSITE_URL+'#contact-us'}`}
                   >
                     Contacts
                   </a>
