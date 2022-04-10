@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { ArrowDown } from '../../../assets/svgs/ArrowDown';
 import { ArrowRight } from '../../../assets/svgs/ArrowRight';
 import { formatPorudctListType, mainProductsType, productsListType } from '../../interfaces';
 var groupBy = require('lodash.groupby');
@@ -37,7 +38,7 @@ const getFormattedProducts = (data: productsListType[]) => {
             })
         }
     }
-    console.log('newData',newData);
+    
     return newData;
 }
 
@@ -47,12 +48,15 @@ const ProductsList = (props: IProductsListProps) => {
     const formattedProducts = getFormattedProducts(records);
     const [selected, setSelected] = useState<formatPorudctListType>();
     const [selectedSubcategory, setSelectedSubcategory] = useState('');
+    const [showSubCat, setShowSubCat] = useState('');
 
     useEffect(() => {
         let defaultProduction = formattedProducts.length > 0 && formattedProducts[0];
         defaultProduction && setSelected(defaultProduction);
         defaultProduction && defaultProduction.subCategory && defaultProduction.subCategory.length > 0 && setSelectedSubcategory(defaultProduction.subCategory[0].subcat_id);
     }, [allProducts])
+
+    console.log('SHOW SUB CAT IS', showSubCat);
     
     
     if (!allProducts && !records) {
@@ -67,14 +71,28 @@ const ProductsList = (props: IProductsListProps) => {
                     {formattedProducts.map((mappedData, index) => {
                         if ((index + 1) === formattedProducts.length) {
                             return (
-                                <div onClick={() => setSelected(mappedData)} className='flex items-center justify-between cursor-pointer pl-8' >
+                                <div onClick={() => setSelected(mappedData)} className='w-full justify-between cursor-pointer pl-8' >
+                                <div className='flex items-center justify-between w-full'  >
                                     <div className='flex items-center'  >
                                         <img src="/images/square-icon.png" className='w-5 h-5' />
                                         <div style={{ textTransform: 'capitalize' }} className={`m-3  hover:text-customGray-2 opacity-100 ${selected?.category.category_name === mappedData.category.category_name ? 'text-customRed-1' : 'text-customGray-3'} `} >{mappedData.category.category_name}</div>
                                     </div>
-                                    {mappedData.subCategory.length > 0 && <div className='pr-5' ><ArrowRight className="w-4 h-4" strokeWidth="2" /></div>}
+                                    {mappedData.subCategory.length > 0 && (showSubCat !== mappedData.category.cat_id ?
+                                        <div className='pr-5' onClick={() => setShowSubCat(mappedData.category.cat_id)} ><ArrowRight className="w-4 h-4" strokeWidth="2" /></div>
+                                        : <div className='pr-5' onClick={() => setShowSubCat('')} ><ArrowDown className="w-6 h-6" strokeWidth="2" /></div>)}
                                 </div>
-                            )
+                                {showSubCat === mappedData.category.cat_id && mappedData.subCategory.length > 0 && <div className='ml-8'>
+                                    <div className=' text-left' >
+                                        {mappedData.subCategory.map((s:productsListType, i:number) => {
+                                            return (
+                                                <div onClick={() => setSelectedSubcategory(s.subcat_id)} className='text-sm flex items-center mb-1 hover:text-customGray-2 pr-5' >
+                                                    <div className='pr-3' ><img  src="/images/square-icon-blue.png" className='w-4 h-4' /></div> {s.subcategory_name}
+                                                </div>
+                                            )
+                                        })}
+                                    </div>
+                                </div>}
+                            </div>)
                         }
                         return (
                             <div key={index} onClick={() => setSelected(mappedData)} className='w-full cursor-pointer pl-8 border-b border-customGray-1 ' >
@@ -82,11 +100,13 @@ const ProductsList = (props: IProductsListProps) => {
                                         <div className='flex items-center' >
                                     <img src="/images/square-icon.png" className='w-5 h-5' />
                                     <div style={{ textTransform: 'capitalize' }} className={`m-3  hover:text-customGray-2 opacity-100 ${selected?.category.category_name === mappedData.category.category_name ? 'text-customRed-1' : 'text-customGray-3'} `} >{mappedData.category.category_name}</div>
-                                </div>
-                                {mappedData.subCategory.length > 0 && <div className='pr-5' ><ArrowRight className="w-4 h-4" strokeWidth="2" /></div>}
+                                    </div>
+                                    {mappedData.subCategory.length > 0 && (showSubCat !== mappedData.category.cat_id ?
+                                        <div className='pr-5' onClick={() => setShowSubCat(mappedData.category.cat_id)} ><ArrowRight className="w-4 h-4" strokeWidth="2" /></div>
+                                        : <div className='pr-5' onClick={() => setShowSubCat('')} ><ArrowDown className="w-6 h-6" strokeWidth="2" /></div>)}
                                 </div>
 
-                                {mappedData.subCategory.length > 0 && <div className='ml-8'>
+                                {showSubCat === mappedData.category.cat_id && mappedData.subCategory.length > 0 && <div className='ml-8'>
                                     <div className=' text-left' >
                                         {mappedData.subCategory.map((s:productsListType, i:number) => {
                                             return (

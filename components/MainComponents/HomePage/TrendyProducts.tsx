@@ -17,14 +17,14 @@ const TrendyProducts = () => {
             if (response) {
                 let records = response.records
                 if (records && Array.isArray(records) && records.length > 0) {
-                    console.log('Records', records);
+                    
                     let grouppedRecords = groupBy(records, 'category_name')    
-                    console.log('grouppedRecords', grouppedRecords);
+                    
                     setTrendingCategories(grouppedRecords);
                 }
         }
         } catch (error) {
-            console.log('Error in categories API', error);
+            
         }
     }
     
@@ -45,9 +45,8 @@ const TrendyProducts = () => {
                           <div className='shadow-xl' key={index} >
                             <Slider {...settings} >
                                 {category[1].map((p: any, i: number) => {
-                                    console.log('p is ', p.image);
                                     return (
-                                        <img src={p.image || "/images/fish-1.png"} className='w-full' key={i} />
+                                        <img src={p.image} className='w-full' key={i} />
                                     )
                                 })}
                                 </Slider>

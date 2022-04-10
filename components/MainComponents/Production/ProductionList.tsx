@@ -8,7 +8,6 @@ interface IProductionListProps{
 
 
 const ProductionList = (props: IProductionListProps) => {
-    console.log('ALL PROPS ARE', props.allProductions);
     const { allProductions } = props;
     const records = allProductions?.records || [];
     

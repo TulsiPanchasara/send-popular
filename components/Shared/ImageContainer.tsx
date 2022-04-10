@@ -2,10 +2,22 @@ import React from 'react';
 
 interface IImageContainerProps{
     image?: string;
+    aboutUs?: boolean;
 }
 
 const ImageContainer = (props: IImageContainerProps) => {
-    const { image} = props;
+    const { image, aboutUs } = props;
+    
+    if (aboutUs) {
+        return (
+            <div className='mx-10 p-4 justify-center my-auto border-4 border-customRed-1'  >
+                <div className='flex justify-center my-auto border-4 border-customRed-1' >
+                <img src={image || '/images/Rectangle 185.png'} className='lg:w-64 object-contain ' />
+            </div>
+            </div>
+        );
+    }
+
     return <div className='flex justify-center lg:px-0 ' >
         <div className='relative ' >
             <div className='relative' >
