@@ -46,7 +46,7 @@ const TrendyProducts = () => {
                             <Slider {...settings} >
                                 {category[1].map((p: any, i: number) => {
                                     return (
-                                        <img src={p.image} className='w-full' key={i} />
+                                        <img src={'/images/fish-1.png'} className='w-full' key={i} />
                                     )
                                 })}
                                 </Slider>

@@ -5,7 +5,13 @@ interface IBreadCrumbProps{
 }
 
 const BreadCrumb = ({title}: IBreadCrumbProps) => {
-  return (<div className='text-center text-customGray-4 text-sm mt-8 mb-24 ' >
+  return (<div style={{
+    backgroundImage: 'url("/images/tbg.jpg")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    paddingTop: '130px',
+    paddingBottom: '100px'
+  }} className='text-center text-customWhite-1 text-lg mb-24 ' >
     <span className='mr-2' ><a href='/' >Home</a> </span>
     &gt;
     <span className='ml-2' >{title}</span>

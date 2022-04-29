@@ -43,7 +43,7 @@ const Header = () => {
   const styled = {
     barStyles: {
       background: 'white',
-      fontFamily: 'Josefin Sans, sans-serif'
+      fontFamily: 'Josefin Sans, sans-serif',
     },
     linkStyles: {
       color: '#707070'

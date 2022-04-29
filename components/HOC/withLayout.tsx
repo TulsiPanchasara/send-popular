@@ -21,8 +21,10 @@ const WithLayout = (ComposedComponent: any, title: string, _hideMeta?: boolean) 
             <title>{title === 'Home' ? 'Send & Popular' : title }</title>
             <meta property="og:title" content={title} />
           </Head>
-          <Header />
+          <div >
+            <Header />
           { title  !== 'Home' && <BreadCrumb title={title} />}
+          </div>
           <ComposedComponent {...props} />
           <Footer/>
           </div>
