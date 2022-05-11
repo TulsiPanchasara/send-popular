@@ -74,8 +74,9 @@ const Header = () => {
       }}
     >
       <div className={styles.logo_wrapper}>
-        <a style={{ ...styled.logoStyles }} href={logo.link}>
+        <a style={{ ...styled.logoStyles, display: "flex" }} href={logo.link}>
           <img src={logo.img} alt='SendPopular' />
+          <img src='/images/popular-logo.png' alt='SendPopular' />
         </a>
       </div>
       <div className={styles.nav_elements}>

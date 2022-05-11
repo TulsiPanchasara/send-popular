@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { ArrowDown } from '../../../assets/svgs/ArrowDown';
 import { ArrowRight } from '../../../assets/svgs/ArrowRight';
 import { formatPorudctListType, mainProductsType, productsListType } from '../../interfaces';
+import LightBox from '../../Shared/LightBox';
 var groupBy = require('lodash.groupby');
 
 interface IProductsListProps {
@@ -49,6 +50,8 @@ const ProductsList = (props: IProductsListProps) => {
     const [selected, setSelected] = useState<formatPorudctListType>();
     const [selectedSubcategory, setSelectedSubcategory] = useState('');
     const [showSubCat, setShowSubCat] = useState('');
+    const [showZoomModal, setShowZoomModal] = React.useState(false);
+    const [initialImage, setInitialImage] = useState({} as { value: string; name: string});
 
     useEffect(() => {
         let defaultProduction = formattedProducts.length > 0 && formattedProducts[0];
@@ -64,6 +67,7 @@ const ProductsList = (props: IProductsListProps) => {
     }
 
     return (
+        <>
         <div className='container mx-auto grid lg:grid-cols-3 grid-cols-1 gap-6 mb-96 px-10' >
             <div className='border h-fit border-customGray-1 opacity-100' >
                 <div className='mt-5 mb-7 text-customGray-3 text-center' >CATEGORY</div>
@@ -155,7 +159,7 @@ const ProductsList = (props: IProductsListProps) => {
                     <div className='grid lg:grid-cols-3 grid-cols-1 gap-3 mt-10' >
                         {selected.products?.length > 0 ? selected.products.map((product: any, index: number) => {
                             return (
-                                <div key={index} >
+                                <div onClick={() => { setShowZoomModal(true); setInitialImage({value: product.image, name: product.name}) }} key={index} className='cursor-zoom-in' >
                                     <img src={product.image || "/images/TestImage.png"} alt={product.name} className='w-60 h-60 ' />
                                 </div>
                             )
@@ -163,7 +167,20 @@ const ProductsList = (props: IProductsListProps) => {
                     </div>
                 )}
             </div>
-        </div>
+            </div>
+            
+            {showZoomModal && (
+        <LightBox
+          onclose={() => {
+            setShowZoomModal(false);
+          }}
+          initalImage={initialImage}
+          openModal={showZoomModal}
+                    data={[initialImage]}
+                    name={initialImage.name}
+        />
+      )}
+        </>
     );
 }
 

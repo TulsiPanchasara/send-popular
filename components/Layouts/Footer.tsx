@@ -83,28 +83,30 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="w-full overflow-hidden md:my-px md:px-px md:w-1/2 lg:pr-2 lg:w-1/5 pb-6">
-              <div className="leading-10 uppercase text-customRed-1 text-sm">Get in Touch</div>
-              <ul className="nav navbar-nav flex flex-col space-y-2 text-customGray-3 ">
-                <li className="text-sm">
-                  Bhagat Industrial Estate,
+            <div className="w-full overflow-hidden md:my-px md:px-px md:w-1/2 lg:pr-2  pb-6">
+                <div className="leading-10 uppercase text-customRed-1 text-sm">Get in Touch</div>
+                <ul className="nav navbar-nav flex flex-col space-y-2 text-customGray-3 ">
+                <li className="text-sm font-bold">
+                    Popular Ceramic
                 </li>
                 <li className="text-sm">
-                  Tarnetar Road,
-                </li>
-                <li className="text-sm">
-                  Thangadh - 363 530,
-                </li>
-                <li className="text-sm">
-                  Dist. Surendranagar, Gujarat.
-                </li>
-                <li className="text-sm">
-                  <a href="mailto:indianceramic33@gmail.com">indianceramic33@gmail.com</a>
+                    Tarnetar Road,Near Abhepar G.E.B, sub-station, Abhepar Road<br />
+                    Bye pass road, Thangadh - 363 530,<br />
+                    Dist. Surendranagar, Gujarat. <br />
+                    <a href="mailto:popularcera@yahoo.com">popularcera@yahoo.com</a>
+                    <a href="tel:+919825493614">+91 98254 93614</a>
                   </li>
-                  <li className="text-sm">
-                  <a href="tel:+919574716333">+91 95747 16333</a>
+                  <li className="text-sm font-bold">
+                    Prem Refactories
                 </li>
-              </ul>
+                <li className="text-sm">
+                    Near City Railway crossing<br />
+                    Thangadh - 363 530,<br />
+                    Dist. Surendranagar, Gujarat. <br />
+                    <a href="mailto:premrefactories@gmail.com">premrefactories@gmail.com</a>
+                    <a href="tel:+919825493614">+91 98254 93614</a>
+                </li>
+                </ul>
             </div>
 
             </div>
