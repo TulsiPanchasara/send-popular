@@ -30,7 +30,8 @@ module.exports = {
         1: '#27DEBF'
       },
       customRed: {
-        1: '#DB211D'
+        1: '#DB211D',
+        2: '#e84d4a'
       },
       customPink: {
         1: '#FFE7CC',

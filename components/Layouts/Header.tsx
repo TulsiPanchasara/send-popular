@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router'
 import React, { createRef } from 'react'
 import { MenuIcon } from '../../assets/svgs/MenuIcon'
 import styles from './styles.module.css'
@@ -45,9 +46,6 @@ const Header = () => {
       background: 'white',
       fontFamily: 'Josefin Sans, sans-serif',
     },
-    linkStyles: {
-      color: '#707070'
-    },
     logoStyles: {
       fontSize: '20px',
       color: 'white'
@@ -66,6 +64,10 @@ const Header = () => {
     //@ts-ignore
     cross.current.style.width = '0'
   }
+
+  const router = useRouter()
+  console.log('Router ', router );
+
   return (
     <div
       className={styles.navbar_wrapper}
@@ -82,7 +84,7 @@ const Header = () => {
       <div className={styles.nav_elements}>
         {items.map(({ text, link }, indx) => {
           return (
-            <a href={link} key={indx} style={{ ...styled.linkStyles }}>
+            <a href={link} key={indx} className={`${router.pathname === link ? 'text-customRed-1 hover:text-opacity-25' : 'hover:text-opacity-30 text-customGray-1' }`} >
               {text}
             </a>
           )
@@ -109,8 +111,8 @@ const Header = () => {
               <a
                 href={link}
                 key={indx}
+                className={`${router.pathname === link ? 'text-customRed-1 hover:text-opacity-25' : 'hover:text-opacity-30 text-customGray-1' }`}
                 style={{
-                  ...styled.linkStyles,
                   background: styled.sidebarStyles.background
                 }}
               >

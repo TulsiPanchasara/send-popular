@@ -522,6 +522,11 @@ select.PhoneInputCountrySelect:focus {
   background: #DB211D;
 }
 
+.flipImage {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 .main-slider .slick-slide .slick-active .slick-center .slick-current{
   width: 90px;
   height: 90px;

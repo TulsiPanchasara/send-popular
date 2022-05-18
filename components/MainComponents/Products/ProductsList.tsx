@@ -58,8 +58,6 @@ const ProductsList = (props: IProductsListProps) => {
         defaultProduction && setSelected(defaultProduction);
         defaultProduction && defaultProduction.subCategory && defaultProduction.subCategory.length > 0 && setSelectedSubcategory(defaultProduction.subCategory[0].subcat_id);
     }, [allProducts])
-
-    console.log('SHOW SUB CAT IS', showSubCat);
     
     
     if (!allProducts && !records) {

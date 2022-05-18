@@ -12,7 +12,7 @@ const BreadCrumb = ({title}: IBreadCrumbProps) => {
     paddingTop: '130px',
     paddingBottom: '100px'
   }} className='text-center text-customWhite-1 text-lg mb-24 ' >
-    <span className='mr-2' ><a href='/' >Home</a> </span>
+    <span className='mr-2 text-customWhite-1 hover:text-opacity-60' ><a href='/' >Home</a> </span>
     &gt;
     <span className='ml-2' >{title}</span>
   </div>);

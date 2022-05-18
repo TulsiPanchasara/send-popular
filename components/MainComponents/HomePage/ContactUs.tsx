@@ -23,8 +23,6 @@ const ContactUs = () => {
         } else {
             console.log('DATA ', formData);
 
-
-
             send(
                 EMAIL_SERVICE_ID || '',
                 EMAIL_TEMPLATE_ID || '', formData, EMAIL_USER_ID)
@@ -59,7 +57,7 @@ const ContactUs = () => {
             </form>
             {error && <div className='lg:max-w-4xl mx-auto px-10 my-3 text-customRed-1' >Please fill all the required fields (Name, Email and Phone is required)</div>}
             <div className='flex justify-center mt-8' >
-                <button onClick={() => onSubmit()} className='bg-customRed-1 px-6 py-3 text-customWhite-1 rounded' >
+                <button onClick={() => onSubmit()} className='bg-customRed-1 hover:bg-customRed-2 px-6 py-3 text-customWhite-1 rounded' >
                     Send Message
                 </button>
             </div>

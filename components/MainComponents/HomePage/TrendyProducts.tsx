@@ -42,7 +42,7 @@ const TrendyProducts = () => {
             <div className='grid lg:grid-cols-4 grid-cols-1 gap-9 container mx-auto mt-14 px-10 ' >
                 {trendingCategories && Object.entries(trendingCategories).length > 0 && Object.entries(trendingCategories).map((category:any, index: number) => {
                     return (
-                          <div className='shadow-xl' key={index} >
+                          <div className='shadow-lg hover:shadow-2xl' key={index} >
                             <Slider {...settings} >
                                 {category[1].map((p: any, i: number) => {
                                     return (
@@ -58,7 +58,7 @@ const TrendyProducts = () => {
                 })}
             </div>
             <div className='flex justify-center mt-10' >
-                <a href="/products" className=' bg-customRed-1 text-customWhite-1 text-xs px-4 py-3 rounded ' >
+                <a href="/products" className=' bg-customRed-1 hover:bg-customRed-2 text-customWhite-1 text-xs px-4 py-3 rounded ' >
                 View All
             </a>
             </div>
