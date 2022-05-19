@@ -16,7 +16,7 @@ const Homepage = () => {
         centerMode: false,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000
+        autoplaySpeed: 3000
     };
     
     return (
@@ -42,10 +42,10 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className='relative' >
-                        <img src="/images/1003.jpg" />
+                        <img src="/images/1004.png" />
                         <div
-                         className='absolute text-customPink-1 max-w-3xl top-1/4 left-7 font-josefin font-bold lg:text-6xl text-base' 
-                        //  style={{ transform: "translate(-50%, -50%)" }}  
+                         className='absolute text-customPink-1 max-w-3xl left-7 font-josefin font-bold lg:text-6xl text-base' 
+                         style={{ top: "15%" }}  
                          >
                               Make your bathroom<br/> amazing
                         </div>
