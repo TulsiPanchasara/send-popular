@@ -5,7 +5,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      josefin: ['Josefin Sans', 'sans-serif']
+      josefin: ['Josefin Sans', 'sans-serif'],
+      allura: ['Allura']
     },
     zIndex: {
       1: -1,

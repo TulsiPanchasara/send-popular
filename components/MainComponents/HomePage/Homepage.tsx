@@ -26,7 +26,7 @@ const Homepage = () => {
                     <div className='relative' >
                         <img src="/images/1001.jpg" />
                         <div
-                         className='absolute top-1/4 text-left font-josefin font-bold lg:text-6xl text-base' 
+                         className='absolute top-1/4 text-left font-allura font-bold lg:text-7xl text-base' 
                          style={{ transform: "translate(-50%, -50%)", left: "45%", color:"#D1D2CE" }}  
                          >
                               Exclusive<br/> Sanitarywares<br/> Collection
@@ -35,7 +35,7 @@ const Homepage = () => {
                     <div className='relative' >
                         <img src="/images/1002.jpg" className='flipImage' />
                         <div
-                         className='absolute  max-w-3xl left-7 font-josefin font-bold lg:text-6xl text-base' 
+                         className='absolute  max-w-3xl left-7 font-allura font-bold lg:text-7xl text-base' 
                          style={{ top: "20%", color:"#A08571" }}  
                          >
                               We bring you the luxuries of royalty
@@ -44,10 +44,10 @@ const Homepage = () => {
                     <div className='relative' >
                         <img src="/images/1004.png" />
                         <div
-                         className='absolute text-customPink-1 max-w-3xl left-7 font-josefin font-bold lg:text-6xl text-base' 
-                         style={{ top: "15%" }}  
+                         className='absolute max-w-3xl left-7 font-allura font-bold lg:text-7xl text-base' 
+                         style={{ top: "15%", color:"#262626" }}  
                          >
-                              Make your bathroom<br/> amazing
+                              Make your bathroom amazing
                         </div>
                     </div>
                 </Slider>
