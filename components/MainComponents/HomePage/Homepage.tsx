@@ -45,7 +45,7 @@ const Homepage = () => {
                         <img src="/images/1004.png" />
                         <div
                          className='absolute max-w-3xl left-7 font-allura font-bold lg:text-7xl text-base' 
-                         style={{ top: "15%", color:"#262626" }}  
+                         style={{ top: "15%", color:"#404040" }}  
                          >
                               Make your bathroom amazing
                         </div>
