@@ -42,7 +42,7 @@ const Homepage = () => {
                         </div>
                     </div>
                     <div className='relative' >
-                        <img src="/images/1004.png" />
+                        <img src="/images/1005.jpg" />
                         <div
                          className='absolute max-w-3xl left-7 font-allura font-bold lg:text-7xl text-base' 
                          style={{ top: "15%", color:"#404040" }}  
