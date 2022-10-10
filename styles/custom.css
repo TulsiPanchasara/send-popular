@@ -488,6 +488,18 @@ select.PhoneInputCountrySelect:focus {
   box-shadow: 0px 8px 9px 0 rgba(0, 0, 0, 0.2);
 }
 
+.slider_image{
+  width: 100px !important ;
+  height: 100px !important;
+  object-fit: contain;
+  margin-top: 10px
+}
+
+.slider_image .img{
+  width: 100% !important;
+  height: 100% !important;
+}
+
 .main-slider .slick-dots {
   top: -20px;
 }

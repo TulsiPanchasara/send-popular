@@ -2,6 +2,7 @@ export type productionsListType = {
     id: string;
     name: string;
     description: string;
+image?: string;
 }
 
 export type mainProductionType = {
