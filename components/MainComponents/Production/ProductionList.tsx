@@ -19,7 +19,9 @@ const ProductionList = (props: IProductionListProps) => {
   return (
     <div className="container mx-auto grid lg:grid-cols-3 grid-cols-1 gap-6 mb-96 px-10">
       <div className="border border-customGray-1 opacity-100">
-        <div className="mt-5 mb-7 text-customGray-3 text-center">CATEGORY</div>
+        <div className="mt-5 mb-7 text-customGray-3 text-center">
+          PRODUCTION
+        </div>
         <div className="lg:block hidden">
           {records.map((productions, index) => {
             if (index + 1 === records.length) {
@@ -91,10 +93,7 @@ const ProductionList = (props: IProductionListProps) => {
             autoPlay
             style={{ maxWidth: "100%", maxHeight: "500px" }}
           >
-            <source
-              src={selected?.image || "/videos/test_video.mp4"}
-              type="video/mp4"
-            />
+            <source src={"/videos/test_video.mp4"} type="video/mp4" />
             <source src="movie.ogg" type="video/ogg" />
             Your browser does not support the video tag.
           </video>
