@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { IMAGE_PATH } from "../../../config/constants";
 import { mainProductionType, productionsListType } from "../../interfaces";
 
 interface IProductionListProps {
@@ -15,6 +16,8 @@ const ProductionList = (props: IProductionListProps) => {
     let defaultProduction = records.length > 0 ? records[0] : Object;
     setSelected(defaultProduction);
   }, [allProductions]);
+
+  console.log("selected", selected);
 
   return (
     <div className="container mx-auto grid lg:grid-cols-3 grid-cols-1 gap-6 mb-96 px-10">
@@ -86,18 +89,25 @@ const ProductionList = (props: IProductionListProps) => {
         {selected && (
           <p className="mt-10 text-customGray-5">{selected?.description}</p>
         )}
-        {selected && selected?.image && (
-          <video
-            controls
-            muted
-            autoPlay
-            style={{ maxWidth: "100%", maxHeight: "500px" }}
-          >
-            <source src={"/videos/test_video.mp4"} type="video/mp4" />
-            <source src="movie.ogg" type="video/ogg" />
-            Your browser does not support the video tag.
-          </video>
-        )}
+        {selected &&
+          selected?.image &&
+          (selected?.image?.includes(".mp4") ? (
+            <video
+              controls
+              muted
+              autoPlay
+              style={{ maxWidth: "100%", maxHeight: "500px" }}
+            >
+              <source
+                src={`${IMAGE_PATH}${selected?.image}`}
+                type="video/mp4"
+              />
+              <source src="movie.ogg" type="video/ogg" />
+              Your browser does not support the video tag.
+            </video>
+          ) : (
+            <img src={`${IMAGE_PATH}${selected?.image}`} />
+          ))}
       </div>
     </div>
   );
