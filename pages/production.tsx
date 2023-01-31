@@ -15,9 +15,13 @@ const production = (props: IProductionProps) => {
   }, []);
 
   const getProductionList = async () => {
-    const res = await fetch(`${API_SERVICE_URL}/productions/read.php`);
-    const response = await res.json();
-    setAllProductions(response);
+    try {
+      const res = await fetch(`${API_SERVICE_URL}/productions/read.php`);
+      const response = await res.json();
+      setAllProductions(response);
+    } catch (error) {
+      console.log("Something went wrong", error);
+    }
   };
 
   return <ProductionList allProductions={allProductions} />;
